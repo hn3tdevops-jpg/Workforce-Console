@@ -36,7 +36,7 @@ Labeling rule: each claim has one of: Confirmed / Inferred / Needs verification 
 - Frontend artifact delivery location (CI artifact store or CDN) — [NEEDS VERIFICATION]
 
 Operational next steps
-- Bootstrap endpoint stub added at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py and example schema available at ./docs/00_START_HERE/specs/bootstrap.json. Import verification: python -c "import sys, importlib; sys.path.insert(0, '/home/hn3t/workforce_api'); m = importlib.import_module('apps.api.app.main'); print('IMPORTED_APP_TITLE:', m.app.title)" -> IMPORTED_APP_TITLE: Workforce API
+- Bootstrap endpoint stub added at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py and example schema available at ./docs/00_START_HERE/specs/bootstrap.json. Import verification: python -c "import sys, importlib; sys.path.insert(0, '/home/hn3t/workforce_api'); m = importlib.import_module('apps.api.app.main'); print('IMPORTED_APP_TITLE:', m.app.title)" -> IMPORTED_APP_TITLE: Workforce API\n  - Route methods verification (import inspection): printed routes for /api/v1/bootstrap show both POST and GET.\n  - Local smoke test (uvicorn) attempt:\n    - Command used: PYTHONPATH=/home/hn3t/workforce_api uvicorn apps.api.app.main:app --host 127.0.0.1 --port 8011 --loop asyncio --workers 1 &>/tmp/uvicorn_bootstrap.log &\n    - Result in this environment: process exited; connection to 127.0.0.1:8011 refused. See /tmp/uvicorn_bootstrap.log (empty) — recommend running in CI or developer machine to fully verify GET response via curl.
 - Search and, if found, import the boundary/reference PDFs into ./docs/boundary/ as .md and keep PDFs in ./upload/exports/ if they are only exports.
 - Assign owners for missing items and update OPEN_DECISIONS.md.
 

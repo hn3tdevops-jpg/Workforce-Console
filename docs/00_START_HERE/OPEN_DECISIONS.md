@@ -62,7 +62,7 @@ D-005 | 2026-04-17 | Bootstrap endpoint canonical path (workforce_api)
 - Unblock condition: bootstrap endpoint file exists and documented in CURRENT_STATE.md/CANONICAL_SOURCES.md
 - Blocking impact: High (blocks frontend shell)
 - Status: Confirmed
-- Evidence: bootstrap.py present at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py; apps/api/app/api/router.py includes bootstrap_router and main.py mounts api_router at /api/v1 (canonical route: /api/v1/bootstrap).
+- Evidence: bootstrap.py present at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py; apps/api/app/api/router.py includes bootstrap_router and main.py mounts api_router at /api/v1 (canonical route: /api/v1/bootstrap).\n  - Methods observed for /api/v1/bootstrap: GET and POST (GET added to support frontend hydration).\n  - Import+route verification command and output included in CURRENT_STATE.md.
 
 D-006 | 2026-04-17 | SILVER_SANDS doc: migrate vs archive
 - Owner: UNASSIGNED

@@ -25,7 +25,7 @@ Approved execution queue (order preserved)
   - frontend consumer docs: ./docs/workstreams/workforce-web-ui/WORKFORCE_WEB_UI_COPILOT_IMPLEMENTATION.md
 - Most likely implementation targets:
   - Repo area: ./workforce_api/apps/api/app/api/v1/endpoints/ [CONFIRMED]
-  - File/module family: ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py (endpoint: GET /api/v1/bootstrap) [CONFIRMED - mounted via ./workforce_api/apps/api/app/api/router.py and ./workforce_api/apps/api/app/main.py]
+  - File/module family: ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py (endpoint: GET /api/v1/bootstrap) [CONFIRMED - mounted via ./workforce_api/apps/api/app/api/router.py and ./workforce_api/apps/api/app/main.py]. Methods allowed: GET, POST. Evidence: python import-inspection printed routes showing both POST and GET for /api/v1/bootstrap.
   - Frontend entrypoint: frontend bootstrap consumer (path under ./workforce_frontend_app/; confirm exact file before PR)
 - Next concrete slice: Create endpoint stub apps/api/app/api/v1/endpoints/bootstrap.py that returns example roles+scopes; publish JSON schema in ./docs/00_START_HERE/specs/bootstrap.json
 

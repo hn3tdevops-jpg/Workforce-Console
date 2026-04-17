@@ -1,0 +1,1 @@
+Patch applied: app.py static middleware disabled to allow explicit SPA fallback. Changed line: app = Flask(__name__, static_folder=None)

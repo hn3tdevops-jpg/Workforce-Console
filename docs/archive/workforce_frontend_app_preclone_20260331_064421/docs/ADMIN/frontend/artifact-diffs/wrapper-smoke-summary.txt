@@ -1,0 +1,14 @@
+Wrapper launch command recorded in wrapper-launch-command.txt
+Wrapper environment recorded in wrapper-env.txt
+Wrapper server log: wrapper-server.log
+
+Test results:
+- GET / returned HTTP 200 and served index.html
+- GET /login returned HTTP 404 (wrapper did not serve index.html for /login)
+- GET /some/nonexistent/route returned HTTP 404 (wrapper did not perform SPA fallback to index.html)
+- Assets referenced from index: see wrapper-assets-from-index.txt
+- Asset HTTP checks: see wrapper-asset-http-checks.txt
+
+Observed issues:
+- SPA fallback did not occur under the wrapper; /login and missing routes returned 404. This suggests Flask's static file handling may be taking precedence and returning 404 before the SPA route handler runs. This is a functional blocker for client-side routing unless the wrapper or deployment platform ensures fallback to index.html.
+

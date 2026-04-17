@@ -1,0 +1,7 @@
+--- /tmp/operational-checksums.txt	2026-03-31 01:41:19.639013701 +0000
++++ /tmp/canonical-checksums.txt	2026-03-31 01:41:19.615013754 +0000
+@@ -1,2 +1,2 @@
+-c3a881ee1c69ac6892bae40f101107ab32824a1f8030cc15316a4824e6f062e7  /home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/dist/public/assets/index-BsqAJ34Y.css
+-31fcdc31ac79b7c570f87139c03d2592bbe3fbc3878dcf13ed1d33eb1bd4aeee  /home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/dist/public/assets/index-BtRHlc7J.js
++e03f3a8ef1b0dff7fb3d60e9f428bff47e447ef20a8e2213289db2ce27be0838  dist/assets/index-BQBo6zK2.css
++e0e5dff96402b0bf4341b83c8a6feead3973ac0b56c65fda7e185d219aeae2af  dist/assets/index-DyiOv8K_.js

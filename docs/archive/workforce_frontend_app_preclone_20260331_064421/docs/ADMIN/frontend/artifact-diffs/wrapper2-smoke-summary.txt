@@ -1,0 +1,10 @@
+Wrapper v2 smoke test (app.py patched to disable static middleware):
+
+Test results (HTTP codes captured in companion files):
+- GET / -> see wrapper2-curl-root.txt and status in /tmp/wrap2_root.txt
+- GET /login -> see wrapper2-curl-login.txt and status in /tmp/wrap2_login.txt
+- GET /some/nonexistent/spa/route -> see wrapper2-curl-missing-route.txt and status in /tmp/wrap2_miss.txt
+- Assets referenced from index: wrapper2-assets-from-index.txt
+- Asset HTTP checks: wrapper2-asset-http-checks.txt
+
+If failures, inspect wrapper-server2.log for details.

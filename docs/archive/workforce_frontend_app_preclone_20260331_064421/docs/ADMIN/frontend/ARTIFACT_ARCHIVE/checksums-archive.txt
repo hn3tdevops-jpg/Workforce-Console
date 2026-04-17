@@ -1,0 +1,2 @@
+c3a881ee1c69ac6892bae40f101107ab32824a1f8030cc15316a4824e6f062e7  /home/hn3t/workforce_frontend_app/docs/ADMIN/frontend/ARTIFACT_ARCHIVE/workforce-console-archive/assets/index-BsqAJ34Y.css
+31fcdc31ac79b7c570f87139c03d2592bbe3fbc3878dcf13ed1d33eb1bd4aeee  /home/hn3t/workforce_frontend_app/docs/ADMIN/frontend/ARTIFACT_ARCHIVE/workforce-console-archive/assets/index-BtRHlc7J.js

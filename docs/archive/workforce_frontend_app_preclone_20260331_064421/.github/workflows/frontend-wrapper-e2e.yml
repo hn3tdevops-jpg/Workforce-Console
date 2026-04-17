@@ -1,0 +1,56 @@
+name: Frontend Wrapper E2E
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to checkout for the run (optional)'
+        required: false
+        default: 'main'
+  push:
+    branches:
+      - main
+
+jobs:
+  e2e:
+    name: Wrapper-based frontend E2E
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Checkout requested branch (workflow_dispatch only)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch != '' }}
+        run: |
+          git fetch origin "${{ github.event.inputs.branch }}"
+          git checkout "${{ github.event.inputs.branch }}"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node dependencies
+        run: |
+          npm ci
+
+      - name: Install system browser deps (for Chromium)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium ffmpeg libnss3 libatk-bridge2.0-0 libxss1 libasound2 libatk1.0-0 libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libgtk-3-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0
+
+      - name: Run wrapper E2E script
+        env:
+          FRONTEND_DIST_DIR: dist-staging
+        run: |
+          # Ensure artifact dir exists
+          mkdir -p docs/ADMIN/frontend/artifact-diffs
+          chmod +x scripts/run_wrapper_e2e.sh
+          ./scripts/run_wrapper_e2e.sh
+
+      - name: Upload E2E artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-wrapper-e2e-artifacts
+          path: docs/ADMIN/frontend/artifact-diffs/**
+          retention-days: 7

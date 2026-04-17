@@ -1,0 +1,20 @@
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.13.1
+Date: Tue, 31 Mar 2026 02:09:16 GMT
+Content-type: text/html
+Content-Length: 387
+Last-Modified: Tue, 31 Mar 2026 01:59:00 GMT
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workforce UI</title>
+    <script type="module" crossorigin src="/assets/index-DyiOv8K_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BQBo6zK2.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

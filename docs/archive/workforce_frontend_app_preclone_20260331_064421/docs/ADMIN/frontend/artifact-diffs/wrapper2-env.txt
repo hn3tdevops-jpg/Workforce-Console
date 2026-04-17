@@ -1,0 +1,1 @@
+FRONTEND_DIST_DIR=dist-staging

@@ -1,0 +1,10 @@
+Playwright run attempted and Playwright-managed browsers installed successfully.
+However, launching the Playwright Chromium headless shell failed.
+See playwright-or-browser-test-log.txt for full logs.
+
+Exact failure details (from log):
+- Browser process started but was terminated: exitCode=null, signal=SIGTRAP
+- Call log indicates graceful close and force kill of the launched process.
+- Observed 'Target page, context or browser has been closed' exception in Node.
+
+Conclusion: Playwright-managed browser binaries installed, but the runtime environment cannot launch the headless shell (SIGTRAP). This environment requires off-host validation or additional OS-level dependencies that are outside the allowed actions for this task.

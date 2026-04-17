@@ -1,0 +1,3 @@
+/home/hn3t/workforce_frontend_app/dist-staging/assets/index-BQBo6zK2.css
+/home/hn3t/workforce_frontend_app/dist-staging/assets/index-DyiOv8K_.js
+/home/hn3t/workforce_frontend_app/dist-staging/index.html

@@ -1,0 +1,17 @@
+===== ROOT HEAD =====
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.13.1
+Date: Tue, 31 Mar 2026 02:09:18 GMT
+Content-type: text/html
+Content-Length: 387
+Last-Modified: Tue, 31 Mar 2026 01:59:00 GMT
+
+
+===== MISSING FILE CHECK =====
+HTTP/1.0 404 File not found
+Server: SimpleHTTP/0.6 Python/3.13.1
+Date: Tue, 31 Mar 2026 02:09:18 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 335
+

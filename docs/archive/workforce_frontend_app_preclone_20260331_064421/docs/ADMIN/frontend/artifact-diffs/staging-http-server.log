@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/local/lib/python3.13/http/server.py", line 1320, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/http/server.py", line 1267, in test
+    with ServerClass(addr127.0.0.1 - - [31/Mar/2026 02:09:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2026 02:09:17] "HEAD /assets/index-BQBo6zK2.css HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2026 02:09:17] "HEAD /assets/index-DyiOv8K_.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2026 02:09:18] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [31/Mar/2026 02:09:18] code 404, message File not found
+127.0.0.1 - - [31/Mar/2026 02:09:18] "HEAD /does-not-exist HTTP/1.1" 404 -
+er_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 98] Address already in use

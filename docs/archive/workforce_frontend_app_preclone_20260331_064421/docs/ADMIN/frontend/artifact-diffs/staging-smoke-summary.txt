@@ -1,0 +1,6 @@
+Smoke test run at: 2026-03-31T02:09:18Z
+Server PID: 4149345
+
+Root asset references:
+/assets/index-BQBo6zK2.css
+/assets/index-DyiOv8K_.js

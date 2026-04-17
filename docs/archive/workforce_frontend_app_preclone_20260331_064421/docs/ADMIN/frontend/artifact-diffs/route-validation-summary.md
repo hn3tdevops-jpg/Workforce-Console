@@ -1,0 +1,1 @@
+{"status":"aborted","reason":"browser-launch-failed","error":"Browser process exited with signal SIGTRAP (unable to run headless shell). See docs/ADMIN/frontend/artifact-diffs/playwright-or-browser-test-log.txt for details."}

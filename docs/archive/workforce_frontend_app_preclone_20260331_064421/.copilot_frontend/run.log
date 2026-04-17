@@ -1,0 +1,52 @@
+[2026-03-31T01:25:40+00:00] Running Copilot frontend workflow...
+[2026-03-31T01:25:40+00:00] Mode: bootstrap
+[2026-03-31T01:25:40+00:00] Prompt file: /home/hn3t/workforce_frontend_app/.copilot_frontend/current_prompt.md
+Scanning the repository to discover existing frontend docs and state files
+  so missing files can be created safely. Running directory listings for
+  docs/ADMIN/frontend, .copilot_frontend, and .github, plus git status.
+
+  Calling tools: report_intent (Scanning repository) + bash ls commands.
+
+● Reading the existing admin/frontend docs, state file, and repo copilot
+  instructions to build the relocation audit and prepare safe edits. Including
+  report_intent 'Reading files'.
+
+● Preparing edits: updating .copilot_frontend/state.json to required schema
+  and last_run_at, appending a progress entry to PROGRESS_REPORT_FRONTEND.md,
+  creating a new FRONTEND_RELOCATION_CATALOG.md with the requested catalogue,
+  and appending a brief entry to /home/hn3t/PROGRESS_REPORT.md to record the
+  changes. These are low-risk documentation/state edits. Including
+  report_intent 'Updating docs' with the file operations.
+
+● Appending an entry to PROGRESS_REPORT_FRONTEND.md to record this bootstrap
+  step, using a safe append (no content replacement). Then present a concise
+  summary and next suggested task.
+
+● Done. Changes made:
+
+   - Updated .copilot_frontend/state.json (normalized keys; last_run_at set to
+  2026-03-31T01:25:40+00:00)
+   - Created docs/ADMIN/frontend/FRONTEND_RELOCATION_CATALOG.md (catalog of structure, env,
+  aliases, integration points)
+   - Appended entries to:
+   - docs/ADMIN/frontend/PROGRESS_REPORT_FRONTEND.md
+   - /home/hn3t/PROGRESS_REPORT.md
+
+  Commands run:
+
+   - ls / file listings (inspection)
+   - created/edited files via repository tools
+   - appended progress via shell redirect
+
+  Result:
+
+   - Required documentation and normalized state now present.
+   - No runtime code changes performed; no API contracts modified.
+
+  Next atomic task (recommended): confirm-deployed-dist-origin — collect CI /
+  Replit export logs or other artifact provenance evidence for /home/hn3t/repo
+  _imports/Workforce-Showcase-master/artifacts/workforce-console so the
+  operational artifact lineage is fully proven.
+
+  Waiting to proceed? (y/n)
+[2026-03-31T01:29:42+00:00] Copilot frontend workflow finished.

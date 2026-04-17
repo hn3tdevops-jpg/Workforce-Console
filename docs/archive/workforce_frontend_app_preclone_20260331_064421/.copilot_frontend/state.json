@@ -1,0 +1,62 @@
+{
+  "phase": "document-artifact-lineage-as-canonical",
+  "last_completed_task": "repair-browser-runtime-and-rerun-functional-validation",
+  "next_suggested_task": "finalize-production-cutover-decision",
+  "inspected_paths": [
+    "/home/hn3t/workforce_frontend_app",
+    "/home/hn3t/projects_active",
+    "/home/hn3t/workforce_new",
+    "/home/hn3t/PROJECTS_ARCHIVE",
+    "/home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console",
+    "/home/hn3t/workforce_frontend_app/dist-staging"
+  ],
+  "updated_files": [
+    "docs/ADMIN/frontend/FRONTEND_RELOCATION_AUDIT.md",
+    "docs/ADMIN/frontend/PROGRESS_REPORT_FRONTEND.md",
+    "docs/ADMIN/frontend/FRONTEND_TASK_QUEUE.md",
+    "docs/ADMIN/frontend/FRONTEND_MASTER_PLAN.md",
+    ".github/copilot-instructions.md"
+  ],
+  "blockers": [],
+  "operational_canonical_artifact": {
+    "artifact_path": "/home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/dist/public",
+    "deployed_dist_path": "/home/hn3t/workforce_frontend_app/dist",
+    "evidence": [
+      "sha256 checksum matches",
+      "rsync copy found in shell history",
+      "artifact.toml metadata in repo_imports"
+    ],
+    "confidence": "high",
+    "confirmed_at": "2026-03-30T18:09:35Z",
+    "provenance_details": {
+      "rsync_command": "rsync -av --delete ~/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/dist/public/ ~/workforce_frontend_app/dist/",
+      "artifact_js": {
+        "path": "/home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/dist/public/assets/index-BtRHlc7J.js",
+        "mtime": "2026-03-30T18:09:35.394149217+00:00",
+        "size_bytes": 1894601
+      },
+      "artifact_toml": {
+        "path": "/home/hn3t/repo_imports/Workforce-Showcase-master/artifacts/workforce-console/.replit-artifact/artifact.toml",
+        "mtime": "2026-03-29T23:29:18+00:00",
+        "size_bytes": 617
+      }
+    }
+  },
+  "maintained_source_status": {
+    "candidates": {
+      "/home/hn3t/workforce_new": "canonical-likely",
+      "/home/hn3t/projects_active": "canonical-possible",
+      "/home/hn3t/PROJECTS_ARCHIVE": "archive-likely"
+    },
+    "status_summary": "Canonical-likely source does not produce matching artifacts; reconciliation required",
+    "key_differences": [
+      "filename and checksum mismatches",
+      "bundle size and dependency differences",
+      "tooling differences (pnpm vs npm/vite)"
+    ]
+  },
+  "recommended_decision_path": "adopt-artifact-lineage",
+  "external_confirmation_needed": false,
+  "external_confirmation_request": null,
+  "last_run_at": "2026-03-31T01:17:50Z"
+}

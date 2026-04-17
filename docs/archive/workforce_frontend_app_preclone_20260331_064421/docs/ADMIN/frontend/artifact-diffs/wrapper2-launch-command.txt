@@ -1,0 +1,1 @@
+FLASK_APP=app.py FRONTEND_DIST_DIR=dist-staging flask run --host 127.0.0.1 --port 8086 (launched under nohup)

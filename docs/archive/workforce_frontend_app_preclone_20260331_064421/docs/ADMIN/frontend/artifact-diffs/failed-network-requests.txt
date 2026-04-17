@@ -1,0 +1,1 @@
+No network requests recorded — browser process failed to start due to runtime launch error (SIGTRAP). See playwright-or-browser-test-log.txt for details.

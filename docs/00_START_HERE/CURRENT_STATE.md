@@ -16,7 +16,7 @@ Labeling rule: each claim has one of: Confirmed / Inferred / Needs verification 
 3) Backend / API state
 - FastAPI app entrypoint: ./workforce_api/apps/api/app/main.py — Confirmed (file present)
 - Starter endpoints stubs (rooms, tasks, assignments, shifts): ./workforce_api/apps/api/app/api/v1/endpoints/{rooms.py,tasks.py,assignments.py,shifts.py} — Confirmed (created by ./workforce_api/scripts/phase3_bootstrap.sh)
-- Session/bootstrap contract endpoint (GET /api/v1/bootstrap or /api/v1/session) — Needs verification (no bootstrap endpoint file found; recommend create: ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py)
+- Session/bootstrap contract endpoint (GET /api/v1/bootstrap or /api/v1/session) — Confirmed (file present at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py)
 - RBAC core files referenced in master plan (example paths in HN3T_MASTER_PLAN.md) — Inferred (master plan references files in workforce/ tree; exact implementation paths vary across repo trees)
 
 4) Deployment / PythonAnywhere state
@@ -36,7 +36,7 @@ Labeling rule: each claim has one of: Confirmed / Inferred / Needs verification 
 - Frontend artifact delivery location (CI artifact store or CDN) — [NEEDS VERIFICATION]
 
 Operational next steps
-- Add a bootstrap endpoint stub at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py and publish example JSON schema at ./docs/00_START_HERE/specs/bootstrap.json.
+- Bootstrap endpoint stub added at ./workforce_api/apps/api/app/api/v1/endpoints/bootstrap.py and example schema available at ./docs/00_START_HERE/specs/bootstrap.json.
 - Search and, if found, import the boundary/reference PDFs into ./docs/boundary/ as .md and keep PDFs in ./upload/exports/ if they are only exports.
 - Assign owners for missing items and update OPEN_DECISIONS.md.
 

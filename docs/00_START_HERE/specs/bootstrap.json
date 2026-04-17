@@ -1,0 +1,7 @@
+{
+  "user": { "id": "demo-user", "name": "Demo User", "email": "demo@example.com" },
+  "businesses": [{ "id": "biz-1", "name": "Demo Business" }],
+  "locations": [{ "id": "loc-1", "business_id": "biz-1", "name": "Demo Location" }],
+  "roles": [{ "id": "role-1", "name": "Manager", "permissions": ["rooms.read", "tasks.create"] }],
+  "features": { "can_create_tasks": true }
+}

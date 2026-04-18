@@ -45,4 +45,6 @@ Operational next steps
 - Active backend repo surface: ./workforce_api/  — Confirmed (primary implementation surface for FastAPI app, models, schemas, services, and bootstrap scripts)
 - Legacy/secondary backend surfaces: ./workforce_new/  — LEGACY/REFERENCE/EXPERIMENTAL. Do not treat as the active implementation by default; verify any referenced artifacts before use.
 
-Snapshot date: 2026-04-17
+- New models added (candidate): ./workforce_api/apps/api/app/models/employee.py and ./workforce_api/apps/api/app/models/user_employee_link.py — Needs migration and verification
+
+Snapshot date: 2026-04-18

@@ -18,7 +18,7 @@ Approved execution queue (order preserved)
 - Objective: Publish a stable bootstrap/session JSON contract used by the frontend shell to hydrate user, business, location, roles, and enabled workspaces.
 - Why it matters: Single endpoint reduces race conditions and centralizes effective permissions.
 - Dependencies: auth/session logic, role assignment model, frontend shell integration
-- Current status: [INFERRED]
+- Current status: [CONFIRMED]
 - Evidence (repo paths):
   - FastAPI bootstrap scaffolding: ./workforce_api/apps/api/app/main.py [CONFIRMED]
   - bootstrap design in consolidated plan: ./docs/planning/workforce_consolidated_master_plan_2026-04-17.md (lines describing bootstrap hydration)
@@ -33,7 +33,7 @@ Approved execution queue (order preserved)
 - Objective: Implement a shell that consumes bootstrap contract and renders navigation and workspace selectors per effective permissions.
 - Why it matters: UX correctness and security; minimizes extra API calls.
 - Dependencies: item 2 (bootstrap contract), frontend router, role/perms model
-- Current status: [BLOCKED] until bootstrap contract is stabilized
+- Current status: [READY] (bootstrap contract stabilized; frontend integration ready)
 - Evidence (repo paths):
   - frontend design docs: ./docs/workstreams/workforce-web-ui/README.frontend-deploy.md and ./workforce_frontend_app/docs/ADMIN/frontend/
 - Most likely implementation targets:

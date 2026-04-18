@@ -32,7 +32,7 @@ Labeling rule: each claim has one of: Confirmed / Inferred / Needs verification 
 
 6) Known gaps / conflicts
 - Missing boundary/reference PDFs (REFERENCE_CATALOGUE.pdf, WF_Server_Boundary_Reference_Catalogue.pdf) — [MISSING]
-- Bootstrap endpoint: file exists and router mount confirmed. Canonical route: /api/v1/bootstrap. Runtime GET payload verification remains environment-limited (recommend CI/dev curl verification). [CONFIRMED - RUNTIME VERIFICATION LIMITED]
+- Bootstrap endpoint: file exists, router mount confirmed, and runtime GET verified. Canonical route: /api/v1/bootstrap. Evidence: uvicorn started and GET /api/v1/bootstrap returned 200 JSON with keys: user, businesses, locations, roles, features (see /tmp/bootstrap_response.json). [CONFIRMED]
 - Frontend artifact delivery location (CI artifact store or CDN) — [NEEDS VERIFICATION]
 
 Operational next steps

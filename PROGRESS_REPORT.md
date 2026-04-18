@@ -490,3 +490,8 @@ Scanning the repository to discover existing frontend docs and state files
   2) Add CI job to run smoke-bootstrap.mjs against deployed or test backend.
   3) Resolve D-006 by migrating or archiving SILVER_SANDS.
 
+
+## 2026-04-18 UTC
+- Reconciled bootstrap runtime verification and frontend wiring: GET /api/v1/bootstrap returns 200 JSON with keys [user, businesses, locations, roles, features].
+- EXECUTION_QUEUE: item 3 (shell/navigation) marked READY; frontend integration may proceed.
+- OPEN_DECISIONS: D-005 updated to include runtime payload keys.

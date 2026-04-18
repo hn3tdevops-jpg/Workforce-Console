@@ -495,3 +495,6 @@ Scanning the repository to discover existing frontend docs and state files
 - Reconciled bootstrap runtime verification and frontend wiring: GET /api/v1/bootstrap returns 200 JSON with keys [user, businesses, locations, roles, features].
 - EXECUTION_QUEUE: item 3 (shell/navigation) marked READY; frontend integration may proceed.
 - OPEN_DECISIONS: D-005 updated to include runtime payload keys.
+
+## 2026-04-18 UTC - Slice finalization
+- Finalized narrow frontend/bootstrap slice: frontend shell hydrates from GET /api/v1/bootstrap; permission-aware nav renders via bootstrap.features; smoke test script added.

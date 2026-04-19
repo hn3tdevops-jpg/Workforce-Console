@@ -1,0 +1,43 @@
+name: validate/employee-link:editable-install
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'workforce_api/**'
+      - '.github/workflows/validate-employee-link-editable-install.yml'
+
+jobs:
+  validate_employee_link_editable_install:
+    name: validate/employee-link:editable-install
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Create venv and upgrade pip/setuptools/wheel
+        run: |
+          python -m venv venv
+          . venv/bin/activate
+          python -m pip install --upgrade pip setuptools wheel
+
+      - name: Install package editable with dev extras (canonical)
+        run: |
+          . venv/bin/activate
+          cd workforce_api
+          # canonical editable install; fail with diagnostic output if pip fails
+          if ! pip install -e '.[dev]' ; then
+            echo "ERROR: pip install -e '.[dev]' failed. Dumping pip output and installed packages for diagnosis."
+            pip -v list
+            exit 1
+          fi
+
+      - name: Run targeted pytest for employee-link
+        run: |
+          . venv/bin/activate
+          cd workforce_api
+          pytest -q tests/test_employee_link.py

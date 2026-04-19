@@ -77,16 +77,28 @@ D-006 | 2026-04-17 | SILVER_SANDS doc: migrate vs archive
 - Evidence: Document present only under ./workforce_new/SILVER_SANDS_INTEGRATION_PLAN.md
 
 D-007 | 2026-04-17 | Remaining backend path conflicts
-- Owner: UNASSIGNED
-- Target decision date: TBD
+- Owner: backend maintainer / current implementing owner
+- Target decision date: 2026-04-25
 - Options:
   A) Treat workforce_api as canonical and update all docs to match
   B) Maintain workforce_new as experimental and tag all references [LEGACY]
 - Recommended: A
 - Unblock condition: Owner runs repo-wide audit and updates docs (this PR addresses many items)
 - Blocking impact: Medium
-- Status: Open
+- Status: In Progress
 - Evidence: Mixed references across docs; this PR reconciled many but some legacy items remain
+
+D-008 | 2026-04-18 | Identity / EmployeeLink canonicalization
+- Owner: backend maintainer / current implementing owner
+- Target decision date: 2026-04-25
+- Options:
+  A) Explicit link table (UserEmployeeLink) (Recommended)
+  B) Direct FK on EmployeeProfile to User (not recommended)
+- Recommended: A
+- Unblock condition: Models, migration, service, and tests merged to main
+- Blocking impact: High (blocks RBAC and assignment correctness)
+- Status: In Progress
+- Evidence: ./docs/00_START_HERE/specs/employee-link.md
 
 Usage
 - Assign an owner and a target date when opening a decision. The owner is accountable for the unblock condition and closure.

@@ -231,8 +231,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     } catch (err: unknown) {
       // Make sure network/CORS errors are surfaced clearly
       const msg = err instanceof Error ? err.message : String(err);
-      const errName = (err as any)?.name ?? "Error";
-      const errMsg = (err as any)?.message ?? String(err);
       throw new Error(msg);
     }
   };

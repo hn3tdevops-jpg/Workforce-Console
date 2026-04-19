@@ -501,3 +501,5 @@ Scanning the repository to discover existing frontend docs and state files
 - Confirmed: POST /api/v1/auth/login returns HTTP 500 in production (reproduced via curl).
 - Inferred root cause: auth path exercises DB; production DB/migrations or provisioning appears incomplete, causing unhandled exceptions when querying users.
 - Applied minimal mitigation: login endpoint now returns 503 Service Unavailable on unexpected errors and logs the exception. Operators should run migrations (alembic upgrade head) and seed the DB to fully restore login.
+
+2026-04-18 - Auth: added /api/v1/auth/register endpoint in workforce_api (branch fix/add-register-endpoint commit 40b0726). Added tests for register endpoint (tests/test_auth_endpoints.py). Next: run pytest in venv and deploy.

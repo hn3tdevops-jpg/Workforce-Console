@@ -1,0 +1,19 @@
+{
+  "createEmployee": {
+    "method": "POST",
+    "path": "/api/v1/employees/",
+    "body": {
+      "business_id": "<uuid>",
+      "location_id": "<uuid | null>",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email_work": "jane.doe@business.example"
+    }
+  },
+  "linkUserToEmployee": {
+    "method": "POST",
+    "path": "/api/v1/employees/link-user/{user_id}",
+    "body": { "employee_id": "<uuid>" },
+    "auth": "Bearer <access_token> (token business_id must match employee.business_id and caller must have users.manage permission)"
+  }
+}

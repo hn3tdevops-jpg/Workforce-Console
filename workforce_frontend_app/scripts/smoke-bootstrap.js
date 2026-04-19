@@ -5,11 +5,16 @@ const API_BASE = process.env.API_BASE || 'http://127.0.0.1:8011/api/v1';
 const DEFAULT_ENABLED_MODULES = [
   'dashboard','rooms','property-map','tasks','assignments','shifts','timeline','users','employees','studio','promotions','inspections','session','inventory','maintenance','communications'
 ];
+const fetchFn = typeof globalThis.fetch === 'function' ? globalThis.fetch.bind(globalThis) : null;
 
 (async function(){
   console.log('Using API_BASE:', API_BASE);
   try{
-    const res = await fetch(API_BASE + '/bootstrap', { method: 'GET' });
+    if (!fetchFn) {
+      console.error('This script requires Node.js 18+ with built-in fetch support.');
+      process.exit(5);
+    }
+    const res = await fetchFn(API_BASE + '/bootstrap', { method: 'GET' });
     console.log('Status:', res.status);
     if (!res.ok) process.exit(2);
     const data = await res.json();

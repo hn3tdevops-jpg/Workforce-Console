@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useQueryClient } from "@tanstack/react-query";
-import { fetchApi, API_BASE } from "./api-client";
+import { fetchApi } from "./api-client";
 import { SessionInfo, LoginRequest } from "@workspace/api-client-react/src/generated/api.schemas";
 import { useToast } from "@/hooks/use-toast";
 

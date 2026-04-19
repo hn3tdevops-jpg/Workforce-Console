@@ -495,3 +495,9 @@ Scanning the repository to discover existing frontend docs and state files
 - Reconciled bootstrap runtime verification and frontend wiring: GET /api/v1/bootstrap returns 200 JSON with keys [user, businesses, locations, roles, features].
 - EXECUTION_QUEUE: item 3 (shell/navigation) marked READY; frontend integration may proceed.
 - OPEN_DECISIONS: D-005 updated to include runtime payload keys.
+
+2026-04-18 — Investigated login 500 / 'Failed to fetch'
+- Confirmed: GET /api/v1/bootstrap works (demo payload).
+- Confirmed: POST /api/v1/auth/login returns HTTP 500 in production (reproduced via curl).
+- Inferred root cause: auth path exercises DB; production DB/migrations or provisioning appears incomplete, causing unhandled exceptions when querying users.
+- Applied minimal mitigation: login endpoint now returns 503 Service Unavailable on unexpected errors and logs the exception. Operators should run migrations (alembic upgrade head) and seed the DB to fully restore login.

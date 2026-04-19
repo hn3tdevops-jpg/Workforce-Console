@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 // Enhanced smoke test: GET /api/v1/bootstrap and validate frontend hydration mapping
-import fetch from 'node-fetch';
 
 const API_BASE = process.env.API_BASE || 'http://127.0.0.1:8011/api/v1';
 const DEFAULT_ENABLED_MODULES = [

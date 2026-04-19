@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { fetchApi } from "./api-client";
-import { SessionInfo, LoginRequest } from "@workspace/api-client-react/src/generated/api.schemas";
+import { SessionInfo } from "@workspace/api-client-react/src/generated/api.schemas";
 import { useToast } from "@/hooks/use-toast";
 
 const DEMO_MODE = import.meta.env.VITE_DEMO_MODE === "true";

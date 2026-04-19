@@ -124,20 +124,20 @@ export function BusinessSettingsProvider({ children }: { children: React.ReactNo
   });
 
   const membership = (session?.memberships ?? []).find((m: any) => m.business_id === businessId) ?? session?.memberships?.[0];
-const sessionEnabledModules = membership?.enabled_modules ?? null;
-const fallbackSettings = sessionEnabledModules
-  ? {
-      business_id: businessId ?? String(membership?.business_id ?? "local"),
-      display_name: membership?.business_name ?? null,
-      logo_url: null,
-      primary_color: "#6366f1",
-      accent_color: "#14b8a6",
-      enabled_modules: Array.isArray(sessionEnabledModules) ? sessionEnabledModules : (() => { try { return JSON.parse(sessionEnabledModules); } catch { return DEFAULT_ENABLED_MODULES; } })(),
-      custom_labels: {},
-    }
-  : null;
+  const sessionEnabledModules = membership?.enabled_modules ?? null;
+  const fallbackSettings = sessionEnabledModules
+    ? {
+        business_id: businessId ?? String(membership?.business_id ?? "local"),
+        display_name: membership?.business_name ?? null,
+        logo_url: null,
+        primary_color: "#6366f1",
+        accent_color: "#14b8a6",
+        enabled_modules: Array.isArray(sessionEnabledModules) ? sessionEnabledModules : (() => { try { return JSON.parse(sessionEnabledModules); } catch { return DEFAULT_ENABLED_MODULES; } })(),
+        custom_labels: {},
+      }
+    : null;
 
-const effectiveSettings = DEMO_MODE ? DEMO_SETTINGS : (settings ?? fallbackSettings);
+  const effectiveSettings = DEMO_MODE ? DEMO_SETTINGS : (settings ?? fallbackSettings);
 
   useEffect(() => {
     if (effectiveSettings) {

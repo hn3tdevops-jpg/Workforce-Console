@@ -1,10 +1,24 @@
 import React, { createContext, useContext, useEffect, useCallback } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { fetchApi } from "./api-client";
 import { useAuth } from "./auth-context";
-import type { ModuleId } from "./modules";
-import { DEFAULT_ENABLED_MODULES } from "./modules";
 
+type ModuleId = string;
+
+const DEFAULT_ENABLED_MODULES: ModuleId[] = [];
+
+async function fetchApi<T>(input: RequestInfo | URL, init?: RequestInit): Promise<T> {
+  const response = await fetch(input, init);
+
+  if (!response.ok) {
+    throw new Error(`Request failed with status ${response.status}`);
+  }
+
+  if (response.status === 204) {
+    return undefined as T;
+  }
+
+  return (await response.json()) as T;
+}
 const DEMO_MODE = import.meta.env.VITE_DEMO_MODE === "true";
 
 export interface BusinessSettings {

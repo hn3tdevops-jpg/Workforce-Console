@@ -1,0 +1,404 @@
+[
+  {
+    "slug": "nvm",
+    "name": ".Nvm",
+    "description": "<a href=\"https://github.com/nvm-sh/logos\">",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../.nvm/",
+        "type": "repo"
+      }
+    ],
+    "docs": [
+      {
+        "title": "README.md",
+        "href": "../.nvm/README.md"
+      }
+    ],
+    "related": [],
+    "last_updated": "2026-03-03"
+  },
+  {
+    "slug": "pytest_cache",
+    "name": ".Pytest Cache",
+    "description": "# pytest cache directory #",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../.pytest_cache/",
+        "type": "repo"
+      }
+    ],
+    "docs": [
+      {
+        "title": "README.md",
+        "href": "../.pytest_cache/README.md"
+      }
+    ],
+    "related": [],
+    "last_updated": "2026-03-14"
+  },
+  {
+    "slug": "dev_hub",
+    "name": "Dev Hub",
+    "description": "Static-first developer hub that aggregates docs, runbooks, and project dashboards.",
+    "status": "ready",
+    "scope": "Docs, runbooks, operations",
+    "key_links": [
+      {
+        "label": "Dev Hub index",
+        "href": "./index.html",
+        "type": "local"
+      },
+      {
+        "label": "Project State Report",
+        "href": "./PROJECT_STATE_REPORT_2026-04-07.md",
+        "type": "doc"
+      }
+    ],
+    "docs": [
+      {
+        "title": "Maintenance Notes",
+        "href": "./docs/MAINTENANCE.md"
+      }
+    ],
+    "related": [],
+    "last_updated": "2026-04-07",
+    "operational_notes": "Static-first; update projects.json and run generator to publish dashboards.",
+    "next_actions": [
+      "Add project-specific runbooks to docs/",
+      "Review discovery filters"
+    ]
+  },
+  {
+    "slug": "hospitable",
+    "name": "Hospitable Ops",
+    "description": "Room, task, inspection, and issue models owned by Hospitable; integrated with Workforce.",
+    "status": "in-progress",
+    "scope": "Integrations, tasks, inspections",
+    "key_links": [
+      {
+        "label": "Hospitable repo",
+        "href": "../hospitable/",
+        "type": "repo"
+      },
+      {
+        "label": "Integration Plan",
+        "href": "./docs/SILVER_SANDS_INTEGRATION_PLAN.md",
+        "type": "doc"
+      }
+    ],
+    "docs": [],
+    "related": [
+      "workforce_api"
+    ],
+    "last_updated": "2026-03-12",
+    "important_routes": [
+      {
+        "label": "Rooms API",
+        "href": "../hospitable/"
+      }
+    ],
+    "operational_notes": "Hospitable owns room/task models; coordinate schema with Workforce API.",
+    "next_actions": [
+      "Document task lifecycle mapping",
+      "Seed sample rooms"
+    ]
+  },
+  {
+    "slug": "openai_backup_20260318",
+    "name": "Openai Backup 20260318",
+    "description": "Project directory: openai_backup_20260318",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../openai_backup_20260318/",
+        "type": "repo"
+      }
+    ],
+    "docs": [],
+    "related": [],
+    "last_updated": "2026-03-14"
+  },
+  {
+    "slug": "projects_active",
+    "name": "Projects Active",
+    "description": "Project directory: projects_active",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../projects_active/",
+        "type": "repo"
+      }
+    ],
+    "docs": [],
+    "related": [],
+    "last_updated": "2026-04-19"
+  },
+  {
+    "slug": "wf_site",
+    "name": "Wf Site",
+    "description": "Project directory: wf-site",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../wf-site/",
+        "type": "repo"
+      }
+    ],
+    "docs": [],
+    "related": [],
+    "last_updated": "2026-04-11"
+  },
+  {
+    "slug": "workforce",
+    "name": "Workforce",
+    "description": "# Workforce",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce/",
+        "type": "repo"
+      }
+    ],
+    "docs": [
+      {
+        "title": "API_BOUNDARIES.md",
+        "href": "../workforce/docs/API_BOUNDARIES.md"
+      },
+      {
+        "title": "ARCHITECTURE.md",
+        "href": "../workforce/docs/ARCHITECTURE.md"
+      },
+      {
+        "title": "CHANGELOG.md",
+        "href": "../workforce/docs/CHANGELOG.md"
+      },
+      {
+        "title": "DECISIONS.md",
+        "href": "../workforce/docs/DECISIONS.md"
+      },
+      {
+        "title": "DOMAIN_MODEL.md",
+        "href": "../workforce/docs/DOMAIN_MODEL.md"
+      },
+      {
+        "title": "MASTER_PLAN.md",
+        "href": "../workforce/docs/MASTER_PLAN.md"
+      },
+      {
+        "title": "MODULE_CATALOG.md",
+        "href": "../workforce/docs/MODULE_CATALOG.md"
+      },
+      {
+        "title": "PHASE_0_APPLY_ORDER.md",
+        "href": "../workforce/docs/PHASE_0_APPLY_ORDER.md"
+      },
+      {
+        "title": "PHASE_STATUS.md",
+        "href": "../workforce/docs/PHASE_STATUS.md"
+      },
+      {
+        "title": "PROJECT_OPERATING_SYSTEM.md",
+        "href": "../workforce/docs/PROJECT_OPERATING_SYSTEM.md"
+      },
+      {
+        "title": "RECOVERY_PLAYBOOK.md",
+        "href": "../workforce/docs/RECOVERY_PLAYBOOK.md"
+      },
+      {
+        "title": "ROADMAP.md",
+        "href": "../workforce/docs/ROADMAP.md"
+      },
+      {
+        "title": "TODO.md",
+        "href": "../workforce/docs/TODO.md"
+      },
+      {
+        "title": "WORKLOG.md",
+        "href": "../workforce/docs/WORKLOG.md"
+      },
+      {
+        "title": "README.md",
+        "href": "../workforce/README.md"
+      }
+    ],
+    "related": [],
+    "last_updated": "2026-03-31"
+  },
+  {
+    "slug": "workforce_api",
+    "name": "Workforce API",
+    "description": "Backend FastAPI services: business, location, users, roles, tasks, and integrations.",
+    "status": "in-progress",
+    "scope": "Backend APIs, RBAC, tenancy",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce_api/",
+        "type": "repo"
+      },
+      {
+        "label": "Progress Report",
+        "href": "./docs/PROGRESS_REPORT_API.md",
+        "type": "doc"
+      },
+      {
+        "label": "Agents & Ops notes",
+        "href": "./docs/AGENTS.md",
+        "type": "doc"
+      }
+    ],
+    "docs": [
+      {
+        "title": "Phase 1 Tenancy Checklist",
+        "href": "./docs/PHASE1-TENANCY-CHECKLIST.md"
+      },
+      {
+        "title": "HN3T Master Plan",
+        "href": "./docs/HN3T_MASTER_PLAN.md"
+      }
+    ],
+    "related": [
+      "workforce_frontend_app"
+    ],
+    "last_updated": "2026-04-07",
+    "important_routes": [
+      {
+        "label": "OpenAPI",
+        "href": "../workforce_api/openapi.json"
+      }
+    ],
+    "operational_notes": "Run: alembic upgrade head; python -m app.cli.main seed-demo",
+    "next_actions": [
+      "Implement effective permissions endpoint",
+      "Add tenant seed data"
+    ],
+    "integrations": [
+      {
+        "name": "Hospitable",
+        "href": "../hospitable/"
+      }
+    ]
+  },
+  {
+    "slug": "workforce_frontend",
+    "name": "Workforce Frontend",
+    "description": "Next.js frontend delivering the admin and operator UI for Workforce.",
+    "status": "in-progress",
+    "scope": "Frontend, types, deployment",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce_frontend_app/",
+        "type": "repo"
+      },
+      {
+        "label": "Frontend Progress Report",
+        "href": "./docs/PROGRESS_REPORT_FRONTEND.md",
+        "type": "doc"
+      },
+      {
+        "label": "Frontend Deploy Guide",
+        "href": "./docs/README.frontend-deploy.md",
+        "type": "doc"
+      }
+    ],
+    "docs": [
+      {
+        "title": "Frontend Master Plan",
+        "href": "./docs/FRONTEND_MASTER_PLAN.md"
+      }
+    ],
+    "related": [
+      "workforce_api"
+    ],
+    "last_updated": "2026-04-07",
+    "important_routes": [
+      {
+        "label": "Admin UI",
+        "href": "../workforce_frontend_app/"
+      }
+    ],
+    "operational_notes": "Build with npm run build; check OpenAPI client generation.",
+    "next_actions": [
+      "Regenerate OpenAPI client types",
+      "Validate Playwright tests"
+    ],
+    "integrations": [
+      {
+        "name": "Workforce API",
+        "href": "../workforce_api/"
+      }
+    ]
+  },
+  {
+    "slug": "workforce_frontend_app",
+    "name": "Workforce Frontend App",
+    "description": "Project directory: workforce_frontend_app",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce_frontend_app/",
+        "type": "repo"
+      }
+    ],
+    "docs": [],
+    "related": [],
+    "last_updated": "2026-04-18"
+  },
+  {
+    "slug": "workforce_frontend_app_push",
+    "name": "Workforce Frontend App Push",
+    "description": "Project directory: workforce_frontend_app_push",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce_frontend_app_push/",
+        "type": "repo"
+      }
+    ],
+    "docs": [],
+    "related": [],
+    "last_updated": "2026-04-08"
+  },
+  {
+    "slug": "workforce_new",
+    "name": "Workforce New",
+    "description": "# Workforce",
+    "status": "unknown",
+    "scope": "",
+    "key_links": [
+      {
+        "label": "Repo root",
+        "href": "../workforce_new/",
+        "type": "repo"
+      }
+    ],
+    "docs": [
+      {
+        "title": "README.md",
+        "href": "../workforce_new/README.md"
+      }
+    ],
+    "related": [],
+    "last_updated": "2026-03-14"
+  }
+]

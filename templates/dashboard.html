@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Dev Hub - Dashboard</title></head>
+<body>
+<h1>Dev Hub Dashboard</h1>
+<p>Last refresh: {{ last_refresh if last_refresh else 'unknown' }}</p>
+<p>Status: {{ status if status else '{}' }}</p>
+<ul>
+<li><a href="/dev-hub/docs">Docs</a></li>
+<li><a href="/dev-hub/progress">Progress</a></li>
+<li><a href="/dev-hub/scripts">Scripts</a></li>
+<li><a href="/dev-hub/packages">Packages</a></li>
+<li><a href="/dev-hub/control">Control Panel</a></li>
+</ul>
+</body></html>

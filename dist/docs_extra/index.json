@@ -1,0 +1,2466 @@
+[
+  {
+    "type": "dir",
+    "path": ".cache",
+    "name": ".cache"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot",
+    "name": ".copilot"
+  },
+  {
+    "type": "dir",
+    "path": ".github",
+    "name": ".github"
+  },
+  {
+    "type": "dir",
+    "path": ".local",
+    "name": ".local"
+  },
+  {
+    "type": "dir",
+    "path": ".nvm",
+    "name": ".nvm"
+  },
+  {
+    "type": "dir",
+    "path": ".pytest_cache",
+    "name": ".pytest_cache"
+  },
+  {
+    "type": "dir",
+    "path": ".virtualenvs",
+    "name": ".virtualenvs"
+  },
+  {
+    "type": "dir",
+    "path": "PROJECTS_ARCHIVE",
+    "name": "PROJECTS_ARCHIVE"
+  },
+  {
+    "type": "dir",
+    "path": "captainslogs",
+    "name": "captainslogs"
+  },
+  {
+    "type": "dir",
+    "path": "dev_hub",
+    "name": "dev_hub"
+  },
+  {
+    "type": "dir",
+    "path": "openai_backup_20260318",
+    "name": "openai_backup_20260318"
+  },
+  {
+    "type": "dir",
+    "path": "projects_active",
+    "name": "projects_active"
+  },
+  {
+    "type": "dir",
+    "path": "server_reports",
+    "name": "server_reports"
+  },
+  {
+    "type": "dir",
+    "path": "upload",
+    "name": "upload"
+  },
+  {
+    "type": "dir",
+    "path": "workforce",
+    "name": "workforce"
+  },
+  {
+    "type": "dir",
+    "path": "workforce_api",
+    "name": "workforce_api"
+  },
+  {
+    "type": "dir",
+    "path": "workforce_frontend_app",
+    "name": "workforce_frontend_app"
+  },
+  {
+    "type": "dir",
+    "path": "workforce_frontend_app_push",
+    "name": "workforce_frontend_app_push"
+  },
+  {
+    "type": "dir",
+    "path": "workforce_new",
+    "name": "workforce_new"
+  },
+  {
+    "type": "file",
+    "path": "index.json",
+    "name": "index.json",
+    "ext": "json",
+    "size": 73407,
+    "mtime": "2026-04-27T02:24:39.949390Z",
+    "mime": "application/json"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot",
+    "name": "copilot"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/huggingface",
+    "name": "huggingface"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/ms-playwright",
+    "name": "ms-playwright"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node",
+    "name": "node"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry",
+    "name": "pypoetry"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/huggingface/hub",
+    "name": "hub"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack",
+    "name": "corepack"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1",
+    "name": "v1"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm",
+    "name": "pnpm"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0",
+    "name": "9.15.0"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist",
+    "name": "dist"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/@isaacs",
+    "name": "@isaacs"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/emoji-regex",
+    "name": "emoji-regex"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/jsbn",
+    "name": "jsbn"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/signal-exit",
+    "name": "signal-exit"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/string-width-cjs",
+    "name": "string-width-cjs"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/wrap-ansi-cjs",
+    "name": "wrap-ansi-cjs"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/@isaacs/cliui",
+    "name": "cliui"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/string-width-cjs/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/string-width-cjs/node_modules/emoji-regex",
+    "name": "emoji-regex"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/wrap-ansi-cjs/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/node/corepack/v1/pnpm/9.15.0/dist/node_modules/wrap-ansi-cjs/node_modules/emoji-regex",
+    "name": "emoji-regex"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs",
+    "name": "virtualenvs"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12",
+    "name": "workforce-SCTGtl4x-py3.12"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13",
+    "name": "workforce-SCTGtl4x-py3.13"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13",
+    "name": "workforce-lQ1u6laD-py3.13"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib",
+    "name": "lib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12",
+    "name": "python3.12"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages",
+    "name": "site-packages"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/alembic-1.18.4.dist-info",
+    "name": "alembic-1.18.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/annotated_doc-0.0.4.dist-info",
+    "name": "annotated_doc-0.0.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/anyio-4.12.1.dist-info",
+    "name": "anyio-4.12.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/asyncpg-0.31.0.dist-info",
+    "name": "asyncpg-0.31.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/bcrypt-3.2.2.dist-info",
+    "name": "bcrypt-3.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/certifi-2026.2.25.dist-info",
+    "name": "certifi-2026.2.25.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/cffi-2.0.0.dist-info",
+    "name": "cffi-2.0.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/click-8.3.1.dist-info",
+    "name": "click-8.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/ecdsa-0.19.1.dist-info",
+    "name": "ecdsa-0.19.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/email_validator-2.3.0.dist-info",
+    "name": "email_validator-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi-0.135.1.dist-info",
+    "name": "fastapi-0.135.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/greenlet-3.3.2.dist-info",
+    "name": "greenlet-3.3.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/h11-0.16.0.dist-info",
+    "name": "h11-0.16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/httpcore-1.0.9.dist-info",
+    "name": "httpcore-1.0.9.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/httptools-0.7.1.dist-info",
+    "name": "httptools-0.7.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/httpx-0.28.1.dist-info",
+    "name": "httpx-0.28.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/idna-3.11.dist-info",
+    "name": "idna-3.11.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/iniconfig-2.3.0.dist-info",
+    "name": "iniconfig-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/mako-1.3.10.dist-info",
+    "name": "mako-1.3.10.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info",
+    "name": "markupsafe-3.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/outcome-1.3.0.post0.dist-info",
+    "name": "outcome-1.3.0.post0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/passlib",
+    "name": "passlib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/passlib-1.7.4.dist-info",
+    "name": "passlib-1.7.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pip",
+    "name": "pip"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pip-24.3.1.dist-info",
+    "name": "pip-24.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pluggy-1.6.0.dist-info",
+    "name": "pluggy-1.6.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pyasn1-0.6.2.dist-info",
+    "name": "pyasn1-0.6.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pycparser-3.0.dist-info",
+    "name": "pycparser-3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pygments-2.19.2.dist-info",
+    "name": "pygments-2.19.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pytest-9.0.2.dist-info",
+    "name": "pytest-9.0.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pytest_asyncio-1.3.0.dist-info",
+    "name": "pytest_asyncio-1.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/python_dotenv-1.2.2.dist-info",
+    "name": "python_dotenv-1.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/python_jose-3.5.0.dist-info",
+    "name": "python_jose-3.5.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pyyaml-6.0.3.dist-info",
+    "name": "pyyaml-6.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/rsa-4.9.1.dist-info",
+    "name": "rsa-4.9.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/six-1.17.0.dist-info",
+    "name": "six-1.17.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/sniffio-1.3.1.dist-info",
+    "name": "sniffio-1.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/sortedcontainers-2.4.0.dist-info",
+    "name": "sortedcontainers-2.4.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/sqlalchemy",
+    "name": "sqlalchemy"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/sqlalchemy-2.0.48.dist-info",
+    "name": "sqlalchemy-2.0.48.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/starlette-0.52.1.dist-info",
+    "name": "starlette-0.52.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/trio-0.33.0.dist-info",
+    "name": "trio-0.33.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/uvicorn-0.41.0.dist-info",
+    "name": "uvicorn-0.41.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/uvloop-0.22.1.dist-info",
+    "name": "uvloop-0.22.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/watchfiles-1.1.1.dist-info",
+    "name": "watchfiles-1.1.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/websockets-16.0.dist-info",
+    "name": "websockets-16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/starlette-0.52.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/h11-0.16.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi/.agents",
+    "name": ".agents"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi/.agents/skills",
+    "name": "skills"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/references",
+    "name": "references"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/sqlalchemy/dialects",
+    "name": "dialects"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/click-8.3.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/passlib/_data",
+    "name": "_data"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/passlib/_data/wordsets",
+    "name": "wordsets"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/pip/_vendor",
+    "name": "_vendor"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/uvicorn-0.41.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/idna-3.11.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.12/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib",
+    "name": "lib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13",
+    "name": "python3.13"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages",
+    "name": "site-packages"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/alembic-1.18.4.dist-info",
+    "name": "alembic-1.18.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/annotated_doc-0.0.4.dist-info",
+    "name": "annotated_doc-0.0.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/anyio-4.12.1.dist-info",
+    "name": "anyio-4.12.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/asyncpg-0.31.0.dist-info",
+    "name": "asyncpg-0.31.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/bcrypt-3.2.2.dist-info",
+    "name": "bcrypt-3.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/certifi-2026.2.25.dist-info",
+    "name": "certifi-2026.2.25.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/cffi-2.0.0.dist-info",
+    "name": "cffi-2.0.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/click-8.3.1.dist-info",
+    "name": "click-8.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/ecdsa-0.19.1.dist-info",
+    "name": "ecdsa-0.19.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/email_validator-2.3.0.dist-info",
+    "name": "email_validator-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi-0.135.1.dist-info",
+    "name": "fastapi-0.135.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/greenlet-3.3.2.dist-info",
+    "name": "greenlet-3.3.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/h11-0.16.0.dist-info",
+    "name": "h11-0.16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/httpcore-1.0.9.dist-info",
+    "name": "httpcore-1.0.9.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/httptools-0.7.1.dist-info",
+    "name": "httptools-0.7.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/httpx-0.28.1.dist-info",
+    "name": "httpx-0.28.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/idna-3.11.dist-info",
+    "name": "idna-3.11.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/iniconfig-2.3.0.dist-info",
+    "name": "iniconfig-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/mako-1.3.10.dist-info",
+    "name": "mako-1.3.10.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info",
+    "name": "markupsafe-3.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/outcome-1.3.0.post0.dist-info",
+    "name": "outcome-1.3.0.post0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/passlib",
+    "name": "passlib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/passlib-1.7.4.dist-info",
+    "name": "passlib-1.7.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pip",
+    "name": "pip"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pip-24.3.1.dist-info",
+    "name": "pip-24.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pluggy-1.6.0.dist-info",
+    "name": "pluggy-1.6.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pyasn1-0.6.2.dist-info",
+    "name": "pyasn1-0.6.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pycparser-3.0.dist-info",
+    "name": "pycparser-3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pygments-2.19.2.dist-info",
+    "name": "pygments-2.19.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pytest-9.0.2.dist-info",
+    "name": "pytest-9.0.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pytest_asyncio-1.3.0.dist-info",
+    "name": "pytest_asyncio-1.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/python_dotenv-1.2.2.dist-info",
+    "name": "python_dotenv-1.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/python_jose-3.5.0.dist-info",
+    "name": "python_jose-3.5.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pyyaml-6.0.3.dist-info",
+    "name": "pyyaml-6.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/rsa-4.9.1.dist-info",
+    "name": "rsa-4.9.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/six-1.17.0.dist-info",
+    "name": "six-1.17.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/sniffio-1.3.1.dist-info",
+    "name": "sniffio-1.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/sortedcontainers-2.4.0.dist-info",
+    "name": "sortedcontainers-2.4.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/sqlalchemy",
+    "name": "sqlalchemy"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/sqlalchemy-2.0.48.dist-info",
+    "name": "sqlalchemy-2.0.48.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/starlette-0.52.1.dist-info",
+    "name": "starlette-0.52.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/trio-0.33.0.dist-info",
+    "name": "trio-0.33.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/uvicorn-0.41.0.dist-info",
+    "name": "uvicorn-0.41.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/uvloop-0.22.1.dist-info",
+    "name": "uvloop-0.22.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/watchfiles-1.1.1.dist-info",
+    "name": "watchfiles-1.1.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/websockets-16.0.dist-info",
+    "name": "websockets-16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/starlette-0.52.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/h11-0.16.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi/.agents",
+    "name": ".agents"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills",
+    "name": "skills"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills/fastapi/references",
+    "name": "references"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/sqlalchemy/dialects",
+    "name": "dialects"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/httpx-0.28.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/click-8.3.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/passlib/_data",
+    "name": "_data"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/passlib/_data/wordsets",
+    "name": "wordsets"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/pip/_vendor",
+    "name": "_vendor"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/uvicorn-0.41.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/idna-3.11.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-lQ1u6laD-py3.13/lib/python3.13/site-packages/httpcore-1.0.9.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib",
+    "name": "lib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13",
+    "name": "python3.13"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages",
+    "name": "site-packages"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/alembic-1.18.4.dist-info",
+    "name": "alembic-1.18.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/annotated_doc-0.0.4.dist-info",
+    "name": "annotated_doc-0.0.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/anyio-4.12.1.dist-info",
+    "name": "anyio-4.12.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/asyncpg-0.31.0.dist-info",
+    "name": "asyncpg-0.31.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/bcrypt-3.2.2.dist-info",
+    "name": "bcrypt-3.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/certifi-2026.2.25.dist-info",
+    "name": "certifi-2026.2.25.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/cffi-2.0.0.dist-info",
+    "name": "cffi-2.0.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/click-8.3.1.dist-info",
+    "name": "click-8.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/ecdsa-0.19.1.dist-info",
+    "name": "ecdsa-0.19.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/email_validator-2.3.0.dist-info",
+    "name": "email_validator-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi-0.135.1.dist-info",
+    "name": "fastapi-0.135.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/greenlet-3.3.2.dist-info",
+    "name": "greenlet-3.3.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/h11-0.16.0.dist-info",
+    "name": "h11-0.16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/httpcore-1.0.9.dist-info",
+    "name": "httpcore-1.0.9.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/httptools-0.7.1.dist-info",
+    "name": "httptools-0.7.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/httpx-0.28.1.dist-info",
+    "name": "httpx-0.28.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/idna-3.11.dist-info",
+    "name": "idna-3.11.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/iniconfig-2.3.0.dist-info",
+    "name": "iniconfig-2.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/mako-1.3.10.dist-info",
+    "name": "mako-1.3.10.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info",
+    "name": "markupsafe-3.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/outcome-1.3.0.post0.dist-info",
+    "name": "outcome-1.3.0.post0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/passlib",
+    "name": "passlib"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/passlib-1.7.4.dist-info",
+    "name": "passlib-1.7.4.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pip",
+    "name": "pip"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pip-24.3.1.dist-info",
+    "name": "pip-24.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pluggy-1.6.0.dist-info",
+    "name": "pluggy-1.6.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pyasn1-0.6.2.dist-info",
+    "name": "pyasn1-0.6.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pycparser-3.0.dist-info",
+    "name": "pycparser-3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pygments-2.19.2.dist-info",
+    "name": "pygments-2.19.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pytest-9.0.2.dist-info",
+    "name": "pytest-9.0.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pytest_asyncio-1.3.0.dist-info",
+    "name": "pytest_asyncio-1.3.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/python_dotenv-1.2.2.dist-info",
+    "name": "python_dotenv-1.2.2.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/python_jose-3.5.0.dist-info",
+    "name": "python_jose-3.5.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pyyaml-6.0.3.dist-info",
+    "name": "pyyaml-6.0.3.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/rsa-4.9.1.dist-info",
+    "name": "rsa-4.9.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/six-1.17.0.dist-info",
+    "name": "six-1.17.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/sniffio-1.3.1.dist-info",
+    "name": "sniffio-1.3.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/sortedcontainers-2.4.0.dist-info",
+    "name": "sortedcontainers-2.4.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/sqlalchemy",
+    "name": "sqlalchemy"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/sqlalchemy-2.0.48.dist-info",
+    "name": "sqlalchemy-2.0.48.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/starlette-0.52.1.dist-info",
+    "name": "starlette-0.52.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/trio-0.33.0.dist-info",
+    "name": "trio-0.33.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/uvicorn-0.41.0.dist-info",
+    "name": "uvicorn-0.41.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/uvloop-0.22.1.dist-info",
+    "name": "uvloop-0.22.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/watchfiles-1.1.1.dist-info",
+    "name": "watchfiles-1.1.1.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/websockets-16.0.dist-info",
+    "name": "websockets-16.0.dist-info"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/starlette-0.52.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/h11-0.16.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi/.agents",
+    "name": ".agents"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills",
+    "name": "skills"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills/fastapi",
+    "name": "fastapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/fastapi/.agents/skills/fastapi/references",
+    "name": "references"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/sqlalchemy/dialects",
+    "name": "dialects"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/markupsafe-3.0.3.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/httpx-0.28.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/click-8.3.1.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/passlib/_data",
+    "name": "_data"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/passlib/_data/wordsets",
+    "name": "wordsets"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/pip/_vendor",
+    "name": "_vendor"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/uvicorn-0.41.0.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/idna-3.11.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/pypoetry/virtualenvs/workforce-SCTGtl4x-py3.13/lib/python3.13/site-packages/httpcore-1.0.9.dist-info/licenses",
+    "name": "licenses"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/ms-playwright/webkit-2272",
+    "name": "webkit-2272"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/ms-playwright/webkit-2272/minibrowser-gtk",
+    "name": "minibrowser-gtk"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/ms-playwright/webkit-2272/minibrowser-wpe",
+    "name": "minibrowser-wpe"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg",
+    "name": "pkg"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal",
+    "name": "universal"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7",
+    "name": "1.0.7"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/copilot-sdk",
+    "name": "copilot-sdk"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/copilot-sdk/docs",
+    "name": "docs"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".cache/copilot/pkg/universal/1.0.7/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg",
+    "name": "pkg"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/session-state",
+    "name": "session-state"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64",
+    "name": "linux-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal",
+    "name": "universal"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411",
+    "name": "0.0.411"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412",
+    "name": "0.0.412"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414",
+    "name": "0.0.414"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417",
+    "name": "0.0.417"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418",
+    "name": "0.0.418"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420",
+    "name": "0.0.420"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421",
+    "name": "0.0.421"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10",
+    "name": "1.0.10"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11",
+    "name": "1.0.11"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12",
+    "name": "1.0.12"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13",
+    "name": "1.0.13"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.14",
+    "name": "1.0.14"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.15",
+    "name": "1.0.15"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.17",
+    "name": "1.0.17"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.18",
+    "name": "1.0.18"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.19",
+    "name": "1.0.19"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.2",
+    "name": "1.0.2"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.21",
+    "name": "1.0.21"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.22",
+    "name": "1.0.22"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.23",
+    "name": "1.0.23"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.24",
+    "name": "1.0.24"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.25",
+    "name": "1.0.25"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.27",
+    "name": "1.0.27"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.3",
+    "name": "1.0.3"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.31",
+    "name": "1.0.31"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.4",
+    "name": "1.0.4"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.5",
+    "name": "1.0.5"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.8",
+    "name": "1.0.8"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.9",
+    "name": "1.0.9"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.417/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.414/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/copilot-sdk",
+    "name": "copilot-sdk"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/copilot-sdk/docs",
+    "name": "docs"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.11/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.421/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.412/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.411/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.418/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/copilot-sdk",
+    "name": "copilot-sdk"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/copilot-sdk/docs",
+    "name": "docs"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.12/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/copilot-sdk",
+    "name": "copilot-sdk"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/copilot-sdk/docs",
+    "name": "docs"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.10/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/copilot-sdk",
+    "name": "copilot-sdk"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/1.0.13/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-darwin-arm64",
+    "name": "clipboard-darwin-arm64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-darwin-x64",
+    "name": "clipboard-darwin-x64"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-linux-arm64-gnu",
+    "name": "clipboard-linux-arm64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-win32-arm64-msvc",
+    "name": "clipboard-win32-arm64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/universal/0.0.420/clipboard/node_modules/@teddyzhu/clipboard-win32-x64-msvc",
+    "name": "clipboard-win32-x64-msvc"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410",
+    "name": "0.0.410"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp",
+    "name": "sharp"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp/node_modules/@emnapi",
+    "name": "@emnapi"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp/node_modules/@img",
+    "name": "@img"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp/node_modules/@emnapi/runtime",
+    "name": "runtime"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/sharp/node_modules/@img/sharp-wasm32",
+    "name": "sharp-wasm32"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/clipboard/node_modules",
+    "name": "node_modules"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/clipboard/node_modules/@teddyzhu",
+    "name": "@teddyzhu"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/clipboard/node_modules/@teddyzhu/clipboard",
+    "name": "clipboard"
+  },
+  {
+    "type": "dir",
+    "path": ".copilot/pkg/linux-x64/0.0.410/clipboard/node_modules/@teddyzhu/clipboard-linux-x64-gnu",
+    "name": "clipboard-linux-x64-gnu"
+  }
+]

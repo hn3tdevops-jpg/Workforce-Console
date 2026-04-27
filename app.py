@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-from flask import Flask, send_from_directory, abort, jsonify, Blueprint, request, render_template, url_for
+from flask import Flask, send_from_directory, abort, jsonify, Blueprint, request, render_template, url_for, redirect
 
 DIST_DIR = Path("/home/hn3t/dev_hub/dist")
 
@@ -25,6 +25,8 @@ def health():
 
 # Keep a simple health endpoint at /health for monitoring
 app.add_url_rule("/health", endpoint="health", view_func=health, methods=["GET"])
+# Redirect root to the dev-hub dashboard for convenience
+app.add_url_rule('/', endpoint='root', view_func=lambda: redirect('/dev-hub/dashboard'))
 
 # Serve the SPA under the /dev-hub/ prefix so it can be mounted at
 # hn3t.pythonanywhere.com/dev-hub/
@@ -1045,10 +1047,13 @@ def api_apply_staged():
         return jsonify({'ok': False, 'error': str(e)}), 500
 
 # Register the blueprint at /dev-hub
-app.register_blueprint(devhub, url_prefix='/dev-hub')
 
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8099, debug=True)
+
+# Register the devhub blueprint after all @devhub.route decorators.
+
+
+# Register blueprint only after all @devhub.route decorators are declared.
+
 
 
 
@@ -1068,3 +1073,11 @@ def admin_login():
 def admin_logout():
     session.pop('devhub_admin', None)
     return ('logged out', 200)
+
+
+# Register the devhub blueprint only after all @devhub.route decorators are declared.
+app.register_blueprint(devhub, url_prefix='/dev-hub')
+
+
+if __name__ == "__main__":
+    app.run(host="127.0.0.1", port=8099, debug=True)

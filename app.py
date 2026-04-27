@@ -553,6 +553,14 @@ def _check_admin():
     # Admin check: session flag, X-ADMIN-TOKEN header, or HTTP Basic auth password
     from flask import request, session, abort
     token = (os.environ.get('DEVHUB_ADMIN_PASSWORD') or os.environ.get('DEV_HUB_ADMIN_TOKEN') or os.environ.get('DEVHUB_ADMIN_TOKEN'))
+    # Fallback: if no env var set, attempt to read the .devhub_secret file in the app directory
+    if not token:
+        try:
+            skf = Path(__file__).parent / '.devhub_secret'
+            if skf.exists():
+                token = skf.read_text().strip()
+        except Exception:
+            token = None
     if session.get('devhub_admin'):
         return True
     hdr = request.headers.get('X-ADMIN-TOKEN')

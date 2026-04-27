@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
-from flask import Flask, send_from_directory, abort, jsonify, Blueprint, request, render_template, url_for, redirect
+import sys
+from flask import Flask, send_from_directory, abort, jsonify, Blueprint, request, render_template, url_for, redirect, redirect
 
 DIST_DIR = Path("/home/hn3t/dev_hub/dist")
 

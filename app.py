@@ -707,7 +707,9 @@ def api_exec():
     # execute: prefer interpreter for .py, otherwise direct exec if executable
     try:
         if str(target).endswith('.py'):
-            cmd = [sys.executable, str(target)] + args
+            # prefer system python3 when running under uwsgi (sys.executable may be uwsgi)
+            pybin = shutil.which('python3') or shutil.which('python') or sys.executable
+            cmd = [pybin, str(target)] + args
         elif os.access(str(target), os.X_OK):
             cmd = [str(target)] + args
         else:

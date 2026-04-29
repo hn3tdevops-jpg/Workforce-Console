@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { fetchApi } from "./api-client";
+import { hasPermission as matchesPermission, normalisePermissions } from "./permissions";
 import { SessionInfo } from "@workspace/api-client-react/src/generated/api.schemas";
 import { useToast } from "@/hooks/use-toast";
 
@@ -61,7 +62,7 @@ interface ApiLoginResponse {
   user?: ApiUserSummary;
 }
 
-function mapToSessionInfo(data: ApiMeResponse): SessionInfo {
+function mapToSessionInfo(data: ApiMeResponse, effectivePermissions: string[] = []): SessionInfo {
   const id = data.user?.id ?? data.id ?? "";
   const email = data.user?.email ?? data.email ?? "";
   const first_name = data.user?.first_name ?? data.first_name;
@@ -84,7 +85,7 @@ function mapToSessionInfo(data: ApiMeResponse): SessionInfo {
     active_business_id,
     memberships,
     roles: data.roles ?? [],
-    permissions: data.permissions ?? [],
+    permissions: normalisePermissions(effectivePermissions.length > 0 ? effectivePermissions : (data.permissions ?? [])),
   };
 }
 
@@ -120,10 +121,12 @@ interface AuthContextType {
   isLoading: boolean;
   session: SessionInfo | null;
   employmentScope: EmploymentScope | null;
+  effectivePermissions: string[];
   login: (credentials: LoginRequest) => Promise<void>;
   logout: () => void;
   switchBusiness: (businessId: string) => Promise<void>;
   hasPermission: (permission: string) => boolean;
+  hasEffectivePermission: (permission: string) => boolean;
   hasRole: (role: string) => boolean;
   hasEmployeePermission: (permission: string) => boolean;
   isOwner: () => boolean;
@@ -136,6 +139,7 @@ const AuthContext = createContext<AuthContextType | null>(null);
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [session, setSession] = useState<SessionInfo | null>(null);
   const [employmentScope, setEmploymentScope] = useState<EmploymentScope | null>(null);
+  const [effectivePermissions, setEffectivePermissions] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const { toast } = useToast();
   const queryClient = useQueryClient();
@@ -143,16 +147,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const loadSession = async () => {
     if (DEMO_MODE) {
       setSession(DEMO_SESSION);
+      setEffectivePermissions(normalisePermissions(DEMO_SESSION.permissions));
       setIsLoading(false);
       return;
     }
 
     const token = localStorage.getItem("workforce_token");
     if (!token) {
-      // No auth token: attempt to fetch bootstrap hydration payload for initial shell hydration
       try {
         const data = await fetchApi<any>("/bootstrap");
-        // Map bootstrap payload to minimal session information used by the shell
         const mapped: any = {
           id: data.user?.id ?? "",
           email: data.user?.email ?? "",
@@ -160,17 +163,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           last_name: undefined,
           is_active: true,
           active_business_id: data.businesses?.[0]?.id ?? undefined,
-          memberships: (data.businesses ?? []).map((b: any) => ({ business_id: b.id, business_name: b.name, role: b.default_role ?? "member", enabled_modules: (data.features && data.features.enabled_modules) ? data.features.enabled_modules : undefined })),
-
+          memberships: (data.businesses ?? []).map((b: any) => ({ business_id: b.id, business_name: b.name, role: b.default_role ?? "member", enabled_modules: (data.features && data.features.enabled_modules) ? data.features.enabled_modules : undefined }),
           roles: (data.roles ?? []).map((r: any) => r.name ?? r),
           permissions: [].concat(...(data.roles ?? []).map((r: any) => r.permissions ?? [])),
         };
         setSession(mapped);
+        setEffectivePermissions(normalisePermissions(mapped.permissions));
         setIsLoading(false);
         return;
       } catch (err) {
-        // Fallback: no bootstrap available or network error — keep session null
         setSession(null);
+        setEffectivePermissions([]);
         setIsLoading(false);
         return;
       }
@@ -178,9 +181,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     try {
       const data = await fetchApi<ApiMeResponse>("/auth/me");
-      const info = mapToSessionInfo(data);
+      const activeBusinessId = data.business_id ?? data.active_business_id ?? "";
+      let permissions: string[] = data.permissions ?? [];
+      if (activeBusinessId) {
+        try {
+          permissions = await fetchApi<string[]>(`/me/effective-permissions?business_id=${encodeURIComponent(activeBusinessId)}`);
+        } catch {
+          permissions = data.permissions ?? [];
+        }
+      }
+      const info = mapToSessionInfo(data, permissions);
       setSession(info);
-      // Fetch employment scope for this user
+      setEffectivePermissions(normalisePermissions(permissions));
       try {
         const userId = data.user?.id ?? data.id ?? info.id;
         if (userId) {
@@ -193,6 +205,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     } catch {
       localStorage.removeItem("workforce_token");
       setSession(null);
+      setEffectivePermissions([]);
       setEmploymentScope(null);
     } finally {
       setIsLoading(false);
@@ -205,6 +218,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const handleUnauthorized = () => {
       localStorage.removeItem("workforce_token");
       setSession(null);
+      setEffectivePermissions([]);
       queryClient.clear();
       window.location.href = "/login";
     };
@@ -216,6 +230,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const login = async (credentials: LoginRequest) => {
     if (DEMO_MODE) {
       setSession(DEMO_SESSION);
+      setEffectivePermissions(normalisePermissions(DEMO_SESSION.permissions));
       return;
     }
 
@@ -229,7 +244,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem("workforce_token", response.access_token);
       await loadSession();
     } catch (err: unknown) {
-      // Make sure network/CORS errors are surfaced clearly
       const msg = err instanceof Error ? err.message : String(err);
       throw new Error(msg);
     }
@@ -244,6 +258,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const logout = () => {
     localStorage.removeItem("workforce_token");
     setSession(null);
+    setEffectivePermissions([]);
     setEmploymentScope(null);
     queryClient.clear();
     window.location.href = "/login";
@@ -275,6 +290,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       (p: string) => p === permission || p === "owner:*" || p === "business:owner"
     ) ?? false;
 
+  const hasEffectivePermission = (permission: string) =>
+    matchesPermission(effectivePermissions, permission);
+
   const hasRole = (role: string) =>
     session?.roles?.some((r: string) => r.toLowerCase() === role.toLowerCase()) ?? false;
 
@@ -298,10 +316,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         isLoading,
         session,
         employmentScope,
+        effectivePermissions,
         login,
         logout,
         switchBusiness,
         hasPermission,
+        hasEffectivePermission,
         hasRole,
         hasEmployeePermission,
         isOwner,

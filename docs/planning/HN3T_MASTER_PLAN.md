@@ -1066,34 +1066,192 @@ You have:
 - Clean dark UI + modular navigation
 
 ======================================================================
-SECTION 25 — OPTIONS & CONFIRMATIONS (UI PATTERNS)
+SECTION 25 — AI, COMMUNICATION, AND STUDIO
 ======================================================================
-Purpose: Define consistent option lists and confirmation flows across the applications and offline replay system.
+
+This tranche introduces the planning structure for three tightly bounded modules
+that are already documented in the planning pack:
+
+- Communication — thread/message transport and collaboration state
+- AI Gateway — OpenAI access, prompt/tool orchestration, parsing, request logs
+- Studio — structured design objects and AI-assisted composition
+
+Design rule:
+Each module remains isolated. Communication does not call OpenAI. AI Gateway
+does not own conversation storage. Studio consumes both but does not absorb
+their responsibilities.
+
+------------------------------------
+25.1 COMMUNICATION MODULE
+------------------------------------
+
+Purpose
+- Provide the collaboration substrate for human-to-human and human-to-AI
+  conversations.
+- Own the durable primitives for threads, messages, participants, and
+  attachments.
+
+Scope
+- Thread creation, archival, renaming, and membership.
+- Message creation, edits, deletes, delivery state, and read state.
+- Participant management.
+- Attachment metadata and file linkage.
+- Thread-level and message-level audit events where needed.
+
+Non-goals
+- Prompt execution.
+- Model selection.
+- Response generation.
+- Design composition.
+- Any OpenAI-specific logic.
+
+Implementation milestones
+- M1: Define persistence models and service boundaries for threads,
+  messages, participants, and attachments.
+- M2: Add API endpoints for thread and message CRUD plus membership
+  management.
+- M3: Add basic UI surfaces for viewing and editing conversations.
+- M4: Add read-state and attachment handling.
+
+Acceptance criteria
+- Threads and messages persist reliably.
+- Participants are enforced by backend policy.
+- Attachments are linked without coupling the module to AI execution.
+- No OpenAI import or prompt orchestration leaks into the module.
+
+Evidence of done
+- Model definitions and migrations.
+- Service tests for thread/message/participant behavior.
+- API tests for create/read/update/delete and membership checks.
+- UI screenshots or browser traces showing conversation state.
+
+------------------------------------
+25.2 AI GATEWAY MODULE
+------------------------------------
+
+Purpose
+- Centralise all model-facing AI work behind one module boundary.
+- Own prompt storage/versioning, tool invocation, parsing, and request logs.
+
+Scope
+- OpenAI client integration.
+- Prompt registry and prompt selection.
+- Tool definitions and tool-call dispatch.
+- Parsing and normalisation of AI responses.
+- Request/response logging and traceability.
+- Minimal admin surfaces for prompt and log inspection if needed.
+
+Non-goals
+- Conversation storage.
+- Thread management.
+- UI layout or design state.
+- Ownership of business data outside AI request context.
+
+Implementation milestones
+- M1: Define the gateway interface and wire the OpenAI client path.
+- M2: Add prompt registry/versioning and tool invocation support.
+- M3: Add request logging and parsed-response persistence.
+- M4: Add observability, admin inspection, and failure handling.
+
+Acceptance criteria
+- All model traffic passes through the gateway.
+- Prompt versions are traceable.
+- Tool calls are observable and testable.
+- Request logs capture enough data for debugging and audit.
+- Conversation state still lives outside the gateway.
+
+Evidence of done
+- Gateway unit tests.
+- Parsing/tool-call tests.
+- Request-log fixtures.
+- End-to-end smoke test proving a routed AI request returns a parsed result.
+
+------------------------------------
+25.3 STUDIO AI INTEGRATION
+------------------------------------
+
+Purpose
+- Use Communication + AI Gateway to support structured, AI-assisted design
+  work inside Studio.
+- Keep the Studio domain centred on structured design objects, not raw chat.
+
+Scope
+- Studio design objects and their lifecycle.
+- AI-assisted generation, refinement, and summarisation flows.
+- Communication-linked design discussions.
+- Gateway-backed actions that create or update structured Studio objects.
+
+Non-goals
+- Re-implementing the Communication layer.
+- Re-implementing the AI Gateway.
+- Raw conversation persistence.
+- Model/provider-specific business logic.
+
+Implementation milestones
+- M1: Define the Studio data model and object lifecycle.
+- M2: Connect Studio actions to Communication threads/messages.
+- M3: Route Studio AI actions through the AI Gateway.
+- M4: Add structured editing, review, and rollback flows.
+
+Acceptance criteria
+- Studio can create and mutate structured design objects.
+- Studio AI actions use the gateway, not direct model calls.
+- Studio discussions remain attached to Communication threads.
+- The module remains usable without eroding the other two boundaries.
+
+Evidence of done
+- Studio object model and service tests.
+- Integration tests proving Communication + AI Gateway composition.
+- UI walkthrough showing AI-assisted Studio edits.
+- Logged AI requests tied back to Studio actions.
+
+------------------------------------
+25.4 OPTIONS & CONFIRMATIONS (UI PATTERNS)
+------------------------------------
+
+Purpose: Define consistent option lists and confirmation flows across the
+applications and offline replay system.
 
 Options
-- Present option lists as compact menus with concise helper text; prefer icons + labels for quick scanning.
-- Use radio lists for exclusive choices and checkboxes for multi-select; group advanced items under "More options" or an overflow menu.
-- Provide a Preview / Execute pattern for any action that affects multiple resources or locations; preview shows exact changes and estimated impact.
+- Present option lists as compact menus with concise helper text; prefer icons
+  + labels for quick scanning.
+- Use radio lists for exclusive choices and checkboxes for multi-select; group
+  advanced items under "More options" or an overflow menu.
+- Provide a Preview / Execute pattern for any action that affects multiple
+  resources or locations; preview shows exact changes and estimated impact.
 
 Confirmations
-- Lightweight confirmations (toast + Undo) for reversible, non-destructive actions; modal confirmations for destructive or irreversible actions.
-- Require explicit confirmation for: deleting roles/assignments, bootstrap/system-init, executing auto-assign that affects multiple locations, bulk unit creation/deletion, clearing audit logs, promoting/demoting Location Owners.
-- Modal pattern: short title; one-sentence description of effect; bullet list of affected resources (if >1); optional checkbox to acknowledge irreversible consequences; primary action button named with the verb (e.g., "Delete role", "Execute auto-assign"); secondary "Cancel" button.
-- After modal success show a contextual toast with an Undo action where feasible (soft-delete / revert window).
+- Lightweight confirmations (toast + Undo) for reversible, non-destructive
+  actions; modal confirmations for destructive or irreversible actions.
+- Require explicit confirmation for: deleting roles/assignments, bootstrap/system-init,
+  executing auto-assign that affects multiple locations, bulk unit
+  creation/deletion, clearing audit logs, promoting/demoting Location Owners.
+- Modal pattern: short title; one-sentence description of effect; bullet list of
+  affected resources (if >1); optional checkbox to acknowledge irreversible
+  consequences; primary action button named with the verb (e.g., "Delete role",
+  "Execute auto-assign"); secondary "Cancel" button.
+- After modal success show a contextual toast with an Undo action where feasible
+  (soft-delete / revert window).
 
 Offline / Idempotency Considerations
-- All queued offline mutations must include X-Idempotency-Key; UI must show idempotency key status and allow users to view queued items before replay.
-- On reconnect, provide a Replay modal with Preview / Execute and conflict-resolution options per item: Retry, Skip, Edit, Discard — each requiring explicit confirmation for bulk operations.
-- Stored replay responses must be linked to AuditEvents and IdempotencyKey records to avoid duplication.
+- All queued offline mutations must include X-Idempotency-Key; UI must show
+  idempotency key status and allow users to view queued items before replay.
+- On reconnect, provide a Replay modal with Preview / Execute and
+  conflict-resolution options per item: Retry, Skip, Edit, Discard — each
+  requiring explicit confirmation for bulk operations.
+- Stored replay responses must be linked to AuditEvents and IdempotencyKey
+  records to avoid duplication.
 
 Accessibility & Localization
-- Confirmation text must be localizable and meet WCAG guidelines (aria-labels, focus traps, contrast, keyboard interactions).
+- Confirmation text must be localizable and meet WCAG guidelines (aria-labels,
+  focus traps, contrast, keyboard interactions).
 - Ensure screen readers announce modal purpose and primary action succinctly.
 
 Acceptance Criteria
 - Destructive actions always present a modal confirmation matching this pattern.
 - Bulk/multi-resource flows include Preview and an explicit Execute confirmation.
-- Offline queue replay uses idempotency keys and a visible confirmation step before committing changes.
+- Offline queue replay uses idempotency keys and a visible confirmation step
+  before committing changes.
 
 ======================================================================
 SECTION 26 — MONITORING & ALERTS
